@@ -3,9 +3,12 @@
 */
 
 * {
-  -moz-box-sizing: border-box; /* Firexfox */
-  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-  box-sizing: border-box; /* IE */
+  -moz-box-sizing: border-box;
+  /* Firexfox */
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box;
+  /* IE */
 }
 
 body {
@@ -30,41 +33,49 @@ a {
 strong {
   font-weight: 600;
 }
-p{
+
+p {
   line-height: 1.6;
 }
 
 /*
  * Heading styles
  */
-h1{
+h1 {
   font: OpenSans;
   font-weight: regular;
   font-size: 22px;
   color: #666A6C
 }
-.owner h3{
-  color:#909597;
+
+.owner h3 {
+  color: #909597;
 }
+
 .owner h3.name {
   font-weight: bold;
 }
-.booking h1{
+
+.booking h1 {
   padding-bottom: 13px;
   font-weight: 600;
 }
-.booking .time{
+
+.booking .time {
   font-weight: 600px;
 }
-.dog-info h2{
+
+.dog-info h2 {
   font-weight: bold;
   padding-bottom: 22px;
 }
-.head-dog h2{
+
+.head-dog h2 {
   font-size: 16px;
   font-weight: bold;
 }
-.Games h2{
+
+.Games h2 {
   padding-bottom: 10px
 }
 
@@ -89,147 +100,184 @@ h1{
  * Header styles
  */
 
-.hero img{
-  width:100%;
+.hero img {
+  width: 100%;
 }
-header .logo{
+
+header .logo {
   border-right: 1px solid #DCE0E0;
-  width:auto;
+  width: auto;
+}
+
+header .log h1 {
+  color: rgb(255, 89, 95);
+  padding-top: 40px;
+  padding-right: 2rem;
+  float: right;
 }
 
 /*
  * info styles
  */
-.info{
+.info {
   text-align: center;
   background: white;
   padding-top: 50px;
 }
-.owner img{
+
+.owner img {
   border-radius: 50%;
 }
-.logo{
-  float:left;
-  width:33.3%;
+
+.logo {
+  float: left;
+  width: 33.3%;
   padding-top: 13px;
   padding-bottom: 13px;
   padding-left: 22px;
 }
+
 /*
  *  media 
  */
- @media only screen and (min-width: 1060px) {
-    .column1{
-      float: left;
-    }
-    .container1{
-      width: 1040px;
-      margin: 0 auto;
-    }
-    .owner-details{
-      width:645px;
-      border-right:1px solid #DCE0E0;
-      margin-bottom: 13px;
-      margin-right: 15px;
+@media only screen and (min-width: 1060px) {
+  .column1 {
+    float: left;
+  }
 
-    }
-    .booking{
-      width:380px;
-    }
-    .dog-details h1,h3{
-      text-align: left;
-    }
-    .logo{
-      padding-left: 35px;
-      padding-top: 20px;
-    }
-    .relation , .name{
-      padding-left: 17px;
-    }
+  .container1 {
+    width: 1040px;
+    margin: 0 auto;
+  }
 
-   }
+  .owner-details {
+    width: 645px;
+    border-right: 1px solid #DCE0E0;
+    margin-bottom: 13px;
+    margin-right: 15px;
 
-   /*
+  }
+
+  .booking {
+    width: 380px;
+  }
+
+  .dog-details h1,
+  h3 {
+    text-align: left;
+  }
+
+  .logo {
+    padding-left: 35px;
+    padding-top: 20px;
+  }
+
+  .relation,
+  .name {
+    padding-left: 17px;
+  }
+
+}
+
+/*
  * container2 styles
  */
 .container2 {
-  width:100%;
+  width: 100%;
   text-align: center;
   margin-top: 20px;
   background: rgb(245, 245, 245);
   border-top: 1px solid #DCE0E0;
 
 }
-.head-dog{
+
+.head-dog {
   padding-top: 60px;
   padding-bottom: 40px;
 }
-.phone{
+
+.phone {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.Care{
+
+.Care {
   width: auto;
-  text-align:left;
+  text-align: left;
   border-top: 1px solid #DCE0E0;
   padding-top: 15px;
   padding-bottom: 15px;
   margin-left: 12px;
   margin-right: 12px;
-} 
-.Games{
-  width: auto;
- text-align:left;
- border-top: 1px solid #DCE0E0;
- padding-top: 15px;
- padding-bottom: 15px;
- margin-right: 12px;
-  
 }
-   /*
+
+.Games {
+  width: auto;
+  text-align: left;
+  border-top: 1px solid #DCE0E0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 12px;
+
+}
+
+/*
  * pictures styles
  */
 
-  .dog-1 img, .dog-2 img, .dog-3 img{
-    width: 100%;
-  }
-  .dog-1, .dog-2, .dog-3{
-    border-top: 1px solid #DCE0E0;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
+.dog-1 img,
+.dog-2 img,
+.dog-3 img {
+  width: 100%;
+}
+
+.dog-1,
+.dog-2,
+.dog-3 {
+  border-top: 1px solid #DCE0E0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 
 
 /*
  *  media2 styles
  */
- @media only screen and (min-width: 1060px) {
-  .main-content{
+@media only screen and (min-width: 1060px) {
+  .main-content {
     background: #F5F5F5;
   }
-  .container2{
+
+  .container2 {
     width: 655px;
     margin: 0 22%;
   }
-  .phone{
+
+  .phone {
     text-align: left;
   }
-  .care{
+
+  .care {
     display: flex;
     padding-bottom: 12px;
   }
-  .fun, .check{
+
+  .fun,
+  .check {
     padding-left: 20px;
   }
-  .pictures{
+
+  .pictures {
     display: flex;
   }
-  .dog-2, .dog-3{
+
+  .dog-2,
+  .dog-3 {
     padding-left: 15px;
   }
-  
-  
 
 
- }
+
+
+}
